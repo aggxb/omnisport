@@ -1,22 +1,2 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-header, h1, h2, h3 {
-  color: #4d179a;
-}
-
-li:has(a):hover,  li a:hover {
-  color: #ffba00;
-}
-
-input:focus {
-  border-color: #ffba00;
-  outline: none;
-}
+@import url('./styles/global.css');
+@import url('./styles/header.css');

@@ -1,0 +1,23 @@
+:root {
+  --p1: #f4f4ee;
+  --p2: #1d0d00;
+  --p3: #223411;
+  --p4: #607848;
+  --p5: #76a04c;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--p1);
+}
+
+p, span, i {
+  font-size: 1rem;
+}

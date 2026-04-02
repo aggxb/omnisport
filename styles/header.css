@@ -1,0 +1,62 @@
+@import url('./global.css');
+
+header .nav-link {
+  color: var(--p2);
+  font-size: 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+header #logo img {
+  width: 120px;
+}
+
+li:has(.nav-link):hover,
+li .nav-link:hover {
+  color: var(--p3);
+  border-color: var(--p3);
+}
+
+input:focus {
+  border-color: #ffba00;
+  outline: none;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--p2);
+  border: none;
+  outline: none;
+}
+
+.menu-btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.menu-btn i {
+  font-size: 1.25rem;
+  color: var(--p1);
+}
+
+@media (max-width: 575px) {
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-nav .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 15px 20px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding-left: 25px;
+  }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,41 +10,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="style.css">
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
 
-    <title>Startup Portfolio</title>
-</body>
+    <title>Omnisport</title>
+    </body>
 </head>
+
 <body>
     <header>
-        <span>Nossa Startup</span>
-        <nav>
-            <ul>
-                <li>Sobre</li>
-                <li>Nossos Serviços</li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/" id="logo"><img src="./assets/hero.png" alt="Logo Omnisport"></a>
+                <button class="navbar-toggler menu-btn" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Gerenciar botão do menu">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#servicos" class="nav-link">Nossos Serviços</a></li>
+                        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <section>
+
+    <main class="container">
+        <section id="main-area">
             <h1>Startup Portfolio</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, optio ratione maiores alias eius aliquid eos, facere atque vitae totam eum perferendis, minus laborum inventore? Ipsam nisi veniam corporis quas?</p>
         </section>
-        <section>
+        <section id="sobre">
             <h2>Nossos Serviços</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, optio ratione maiores alias eius aliquid eos, facere atque vitae totam eum perferendis, minus laborum inventore? Ipsam nisi veniam corporis quas?</p>
         </section>
-        <section>
-            <h2>Contato</h2>
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, optio ratione maiores alias eius aliquid eos, facere atque vitae totam eum perferendis, minus laborum inventore? Ipsam nisi veniam corporis quas?</p>
         </section>
     </main>
+
     <footer>
         Nossa startup. 2026.
     </footer>
 </body>
+
 </html>
