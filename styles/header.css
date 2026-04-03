@@ -1,12 +1,16 @@
 @import url('./global.css');
 
-header .nav-link {
+#header {
+  padding: 0px;
+}
+
+.navbar-nav {
   color: var(--p2);
   font-size: 1rem;
   border-bottom: 2px solid transparent;
 }
 
-header #logo img {
+#logo img {
   width: 120px;
 }
 
@@ -41,6 +45,7 @@ input:focus {
 }
 
 @media (max-width: 575px) {
+  .navbar-nav,
   .navbar-nav .nav-item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
