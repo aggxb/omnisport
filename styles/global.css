@@ -18,12 +18,20 @@ body {
   background-color: var(--p1);
 }
 
+p,
 h1,
 h2,
 h3,
-h4 {
+h4,
+ul,
+li {
   margin: 0;
   padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
 }
 
 p,
@@ -43,4 +51,32 @@ img {
 .container {
   max-width: 1440px;
   padding: 1rem 2rem;
+}
+
+.section-container {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--p5);
+}
+
+.paragraph {
+  font-size: 1.15rem;
+  color: var(--p2);
+}
+
+.btn {
+  width: fit-content;
+  background: var(--p5);
+  border: none;
+}
+
+.btn:hover {
+  background: var(--p4);
+  scale: 1.02;
+  transition: all 0.5s;
 }
